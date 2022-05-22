@@ -1,0 +1,13 @@
+.control {
+    position:absolute;
+    height:25px;
+   display:flex;
+   justify-content: center;
+    left:50%;
+   bottom:50px;
+}
+.control svg {
+
+ 
+   z-index: 2;
+}

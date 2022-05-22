@@ -1,0 +1,19 @@
+.overlay {
+    height:100vh;
+    width:100%;
+    background-color:#000;
+    position:fixed;
+    z-index:997;
+}
+.top {
+    z-index: 1000;
+    width: 100vw;
+}
+.overlayOnTop {
+    width:100vw;
+    height:100vh;
+    display:flex;
+    justify-content: center!important;
+    align-items: center!important;
+    position: absolute;
+}

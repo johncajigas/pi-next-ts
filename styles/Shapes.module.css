@@ -1,0 +1,22 @@
+
+.svg {
+    transition:all .3s;
+}
+.svg svg {
+    cursor:pointer;
+    overflow: visible;
+}
+.outer{
+    padding:25px;
+}
+.circle {
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    
+    border-radius: 100%;
+
+}
+.svg svg text {
+user-select: none;
+}
+

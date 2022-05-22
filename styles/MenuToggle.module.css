@@ -1,0 +1,30 @@
+.settingsWrap {
+    position: fixed;
+    top:50px;
+    margin-left:5px;
+    z-index:999;
+}
+.outer {
+    position:fixed;
+    top:0;
+    background-color: rgb(44,44,44);
+    font-size: 25px;
+    height:50px;
+    width:50px;
+    user-select: none;
+    cursor: pointer;
+    z-index: 999;
+    border-radius: 0px 0px 12px;
+}
+.inner {
+    display:flex;
+    justify-content:center;
+    height:100%;
+    align-items:center;
+}
+.navButtons {
+    margin-left:60px;
+    position: fixed;
+    z-index: 999;
+    display: none;
+}

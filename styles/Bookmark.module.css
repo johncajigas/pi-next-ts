@@ -1,0 +1,36 @@
+.outer {
+    margin-top:50px;
+    margin:5px;
+    position:relative;
+    overflow:hidden;
+    border-radius: var(--border-radius);
+}
+.inner {
+  
+    border-radius: var(--border-radius);
+    padding:5px;
+    display: block;
+overflow: hidden;
+position: relative;
+  
+}
+.titleWrap {
+    height:35px;
+    padding:5px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow-y:hidden;
+    z-index: 1;
+    color:var(--contrast)
+    
+}
+.title {
+    margin:13px 0;
+}
+.gradient {
+    position: absolute;
+    top:0;
+    left: 0;
+}

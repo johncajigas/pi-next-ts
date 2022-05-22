@@ -1,0 +1,20 @@
+.outer{
+    display:flex;
+    flex-direction: column;
+    width:fit-content;
+    padding: 9px;
+    position: absolute;
+    background-color:var(--contrast);
+    color:var(--accent);
+    text-align: center;
+    border-radius: var(--border-radius);
+    top:-20px;
+    user-select: none;
+}
+.month,.year {
+    font-size:.8em;
+}
+.day {
+    font-size:2em;
+    font-weight: bold;
+}

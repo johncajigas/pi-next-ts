@@ -1,0 +1,5 @@
+.wrap {
+    border:solid 1px var(--primary);
+    min-height:200px;
+    margin:25px 0;
+}

@@ -1,0 +1,40 @@
+.wrap {
+    position: fixed;
+    width: 100%;
+    height:100%;
+    z-index: 998;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    text-align: right;
+}
+
+.heading {
+    color:var(--accent-dark);
+    background:rgba(255,255,255,.7);
+    padding:2px 15px;
+    text-align: right;
+    display: inline;
+    line-height: 1.7em;
+}
+.text {
+    color:var(--contrast)!important;
+    margin:5px 0px !important;
+    padding:0;
+}
+.image {
+    width:250px,
+}
+.mobile {
+    position:relative!important;
+    align-items: flex-start!important;
+    text-align: left!important;
+    height:auto!important;
+    margin-bottom:20px;
+    padding-bottom:20px;
+    border-bottom:1px solid #999;
+}
+.mobile h1,.mobile h2,.mobile h3,.mobile p{
+    font-size:.8em;
+}

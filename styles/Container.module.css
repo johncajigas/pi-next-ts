@@ -1,0 +1,139 @@
+.wrap {
+    background-color:var(--grey-bg);
+    margin:20px;
+    padding:20px;
+    border-radius:var(--border-radius);
+    box-shadow:0px 0px 12px rgba(0,0,0,.3);
+    color:var(--contrast);
+}
+.hero {
+   border-radius: var(--border-radius);
+    background-color: var(--grey-bg);
+    padding:13px;
+    color:var(--contrast);
+}
+.meta {
+    font-weight: bold;
+    text-align: center;
+}
+.hero p {
+    font-size:.9rem;
+}
+.postImage {
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+.postImage .image {
+    object-fit: cover;
+    width:100%!important;
+    position: relative!important;
+    height:unset !important;
+    pointer-events: none;
+}
+.postImage > span {
+    position:unset!important;
+}
+.postImage.square > span {
+    aspect-ratio: 1;
+}
+.morePosts {
+    padding:0 10px
+}
+.header {
+    border-bottom:solid 2px var(--primary);
+    margin-bottom:20px;
+
+}
+.header h2 {
+    text-align: left;
+}
+
+.content {
+    z-index: 998;
+    translate: 0 -200px;
+    margin-bottom: -200px;
+    text-align: justify;
+}
+.contentHeader{
+    height:100%;
+    width:100%;
+    position:absolute;
+    z-index: 1;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.contentHeader h1 {
+    color:var(--contrast);
+    text-shadow: 1px 1px var(--grey-bg);
+}
+@media screen and (max-width:768px) {
+    .content {
+        translate:0 0!important;
+        margin-bottom: 0!important;
+    }
+}
+.hr {
+    margin: 50px 80px 25px 80px;
+    border: unset;
+    height: 6px;
+    background-color: var(--contrast);
+    border-radius: var(--border-radius);
+    opacity: .4;
+}
+.authorContent {
+    background-color: var(--grey-accent);
+    padding:15px;
+    margin:10px;
+    border-radius: var(--border-radius);
+}
+.authorHeader {
+    font-weight: bold;
+    padding:5px 0;
+    margin-bottom:10px;
+    border-bottom:1px solid var(--grey-bg);
+    text-align: left!important;
+}
+.authorTitle {
+    font-style: italic;
+    font-weight: normal!important;
+    font-size:.9em;
+}
+.authorDescription {
+    font-size:.9em;
+    line-height:1.2;
+    padding:0;
+    margin-top:0;
+}
+.imageCaption {
+    background-color: var(--grey-accent);
+    padding:13px;
+    font-size:.6em;
+    color:var(--primary);
+    text-align: center;
+}
+
+.imageOverlay {
+    height: 100vh;
+    width:100vw;
+    cursor: pointer;
+}
+.alert {
+    display:flex;
+    justify-content: center;
+    border:solid 1px;
+    border-color:transparent;
+    min-height:45px;
+    align-items: center;
+    border-radius: var(--border-radius);
+}
+.success {
+    color:white;
+    background-color:var(--success);
+}
+.error {
+    color:white;
+    background-color: var(--error);
+}

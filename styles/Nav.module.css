@@ -1,0 +1,43 @@
+.short {
+    height:var(--nav-height);
+}
+.bordered {
+    border:solid 1px #eee;
+}
+.navBar {
+    background-color:var(--bg-color);
+    margin-bottom:15px;
+}   
+.navColumn {
+    width: 250px;
+    z-index: 998;
+    position: fixed;
+    top: 0;
+    background: var(--grey-bg);
+    color:#fff!important;
+    height: 100vh;
+}
+.navItem {
+    /* link (a) */
+    text-decoration: none;
+    font-weight:bold;
+    color: var(--primary)!important;
+    min-height: 45px;
+    display: inherit;
+    display: flex;
+    flex: 1;
+    justify-content: inherit;
+    align-items: inherit;
+    cursor: pointer;
+}
+
+.navItem:hover {
+    background-color: var(--primary-light)!important;
+    color:var(--bg-color)!important;
+    
+}
+.active {
+    background-color: var(--primary-light)!important;
+    color:var(--bg-color)!important;
+    
+}

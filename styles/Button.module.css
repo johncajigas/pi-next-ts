@@ -1,0 +1,43 @@
+.iconButton {
+    background-color:var(--grey-bg);
+    border-radius: var(--border-radius);
+    height: 45px;
+    width: 45px;
+    z-index: 999;
+    cursor: pointer;
+    user-select: none;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: content-box;
+    margin-top:5px;
+}
+.inner {
+    border: solid 1px;
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.label {
+    font-size:13px;
+    background-color:rgba(255,255,255,.8);
+    display:flex;
+    align-items:center;
+    padding:4px 12px;
+    margin-left:12px;
+    color:rgb(44,44,44);
+    border-radius:5px;
+}
+.iconButton.error {
+    color:var(--error);
+}
+.iconButton.warning {
+    color:var(--warning);
+}
+.iconButton.success {
+    color:var(--success)!important;
+}

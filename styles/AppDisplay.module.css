@@ -1,0 +1,10 @@
+.wrap {
+    width:100%;
+}
+.logo {
+    margin-bottom:-20px;
+    z-index: 1;
+}
+.video {
+    border:solid 4px var(--primary);
+}
